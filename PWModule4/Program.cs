@@ -16,6 +16,7 @@ class Program
         creator = new LetterCreator();
         creator.OpenDocument();
 
-
+        creator = new InvoiceCreator();
+        creator.OpenDocument();
     }
 }
